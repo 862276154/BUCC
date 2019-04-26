@@ -1,0 +1,224 @@
+body{
+  background: #2E323B;
+
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background: #2E323B;
+    .record{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      padding: 0.23rem 0;
+      border-bottom: 1px solid #4F545F;
+      p{
+        width: 50%;
+        height: 0.6rem;
+        line-height: 0.6rem;
+      }
+      span{
+        color: white;
+        background: #3B404C;
+        // padding: 0.18rem 0.5rem;
+      }
+    }
+    .matter{
+      width: 100%;
+      height: auto;
+      color: white;
+      .first{
+        width: 100%;
+        height: 2.5rem;
+        padding: 0 0.2rem;
+        .firsts{
+          width: 100%;
+          height: 100%;
+          background:linear-gradient(top,#3B404C,#242935);
+          text-align: center;
+          p:nth-child(1){
+            padding-top: 0.73rem;
+            font-size: 0.26rem;
+          }
+          p:nth-child(2){
+            color: #ED921D;
+            margin-top: 0.4rem;
+            font-size: 0.4rem;
+          }
+        }
+      }
+      .second{
+        width: 100%;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        padding: 0 0.2rem;
+        margin-top: 0.24rem;
+        .seconds{
+          width: 100%;
+          height: 100%;
+          background:#373C48;
+          text-align: center;
+          font-size: 0.26rem;
+        }
+      }
+      .mains{
+        width: 100%;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        position: relative;
+        padding: 0 0.3rem;
+        input{
+            width: 100%;
+            height: 100%;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #C7C7C7;
+            padding-left: 0.6rem;
+        }
+        span{
+          color: white;
+            position: absolute;
+            top: 0;
+            left: 0.6rem;
+            z-index: 1000;
+        }
+    }
+      .selectMoney{
+        width: 100%;
+        height: auto;
+        // background: red;
+        border-top: 1px solid #575D69;
+        border-bottom: 1px solid #575D69;
+        // float: left;
+        margin-bottom: 1.2rem;
+        display: flex;
+        flex-direction: row;
+        span{
+          display: block;
+          color: #3790FF;
+          font-size: 0.26rem;
+          border: 1px solid #3790FF;
+          border-radius: 0.1rem;
+          line-height: 0.6rem;
+          text-align: center;
+          float: left;
+          width: 27%;
+          margin: 3%;
+        }
+      }
+      .createOrder{
+        width: 100%;
+        height: 0.7rem;
+        padding: 0 0.4rem;
+        box-sizing: border-box;
+        text-align: center;
+        margin-top: 2rem;
+        span{
+          display: inline-block;
+          width: 100%;
+          line-height: 0.7rem;
+          background: #3790FF;
+          color: white;
+          border-radius: 0.35rem;
+        }
+      }
+    }
+    .salesCenter{
+      width: 100%;
+      height: auto;
+      border-top: 1px solid #575D69;
+      border-bottom: 1px solid #575D69;
+      float: left;
+      span{
+        display: block;
+        color: #3790FF;
+        font-size: 0.26rem;
+        border: 1px solid #3790FF;
+        border-radius: 0.1rem;
+        line-height: 0.6rem;
+        text-align: center;
+        float: left;
+        width: 27%;
+        margin: 3%;
+      }
+    }
+    .salesMain{
+      width: 100%;
+      height: auto;
+      color: white;
+      font-size: 0.26rem;
+      li{
+        width: 100%;
+        height: 1.5rem;
+        border-bottom: 1px solid #575D69;
+        padding-top: 0.24rem;
+        position: relative;
+        dl{
+          padding-left: 0.5rem;
+          dt{
+            width: 0.92rem;
+            height: 0.95rem;
+            float: left;
+            margin-right: 0.24rem;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+          dd{
+            line-height: 0.36rem;
+            img{
+              vertical-align: none;
+              margin: 0 3px;
+            }
+          }
+        }
+      }
+    }
+    .orderRecord{
+      width: 100%;
+      height: auto;
+      color: white;
+      li{
+        width: 100%;
+        height: 100%;
+        border-bottom: 1px solid #4F545F;
+        padding: 0.24rem 0.5rem;
+        position: relative;
+        dl{
+          dt{
+            width: 1rem;
+            height: 1rem;
+            float: left;
+            margin-right: 0.64rem;
+            img{
+              width: 100%;
+              height: 100%;
+              border-radius: 50%;
+            }
+          }
+          dd{
+            font-size: 0.26rem;
+            p{
+              line-height: 0.42rem;
+              span{
+                width: 0.9rem;
+                display: inline-block;
+              }
+            }
+          }
+        }
+        .amount{
+          position: absolute;
+          top: 0.54rem;
+          right: 0.48rem;
+          color: #ED921D;
+          font-size: 0.4rem;
+        }
+      }
+    }
+
+
+}
